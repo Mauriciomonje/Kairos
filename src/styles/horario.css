@@ -1,0 +1,19 @@
+.container-horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}   
+.container-horario li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ff5a017e;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    background-color: #f9f9f9;
+}

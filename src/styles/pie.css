@@ -1,0 +1,70 @@
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #0000003f;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    gap: 200px;
+    
+    
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+/* Remove underline and set color for all links inside .footer-links */
+.footer-links button{
+    text-decoration: none;
+    color: rgb(255, 95, 3);
+    background-color: transparent;
+    border: none;
+}
+.footer-links h3{
+    color:rgb(248, 97, 9);
+}
+
+@media (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+        padding: 30px 0;
+        
+    }
+    .container-footer {
+        height: auto;
+        padding: 20px 0;
+        background-color: black;
+    }
+    .footer-links {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .footer {
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .footer-links h3 {
+        font-size: 1.1em;
+    }
+    .footer-links a {
+        font-size: 0.95em;
+    }
+}
