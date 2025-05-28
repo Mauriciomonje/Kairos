@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Kairos/static/css/main.295c6d6b.css",
+    "main.js": "/Kairos/static/js/main.7ef75ccc.js",
+    "static/js/453.ce69ebd5.chunk.js": "/Kairos/static/js/453.ce69ebd5.chunk.js",
+    "static/media/kairos.mp4": "/Kairos/static/media/kairos.798cb36db794d554d578.mp4",
+    "static/media/logosmarcas.png": "/Kairos/static/media/logosmarcas.84bb492c450d9a16c335.png",
+    "static/media/logo.svg": "/Kairos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Kairos/index.html",
+    "main.295c6d6b.css.map": "/Kairos/static/css/main.295c6d6b.css.map",
+    "main.7ef75ccc.js.map": "/Kairos/static/js/main.7ef75ccc.js.map",
+    "453.ce69ebd5.chunk.js.map": "/Kairos/static/js/453.ce69ebd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.295c6d6b.css",
+    "static/js/main.7ef75ccc.js"
+  ]
+}
